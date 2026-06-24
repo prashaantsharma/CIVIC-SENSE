@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-header: "Cambria", "Playfair Display", Georgia, serif;
+  --color-civic-teal: #004d40;
+  --color-civic-teal-light: #00695c;
+  --color-civic-teal-dark: #00251e;
+  --color-electric-amber: #ffbf00;
+  --color-electric-amber-light: #ffca28;
+}
+
+/* Custom styles for Leaflet and other components if needed */
+.leaflet-container {
+  font-family: var(--font-sans);
+}
+

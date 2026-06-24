@@ -1,0 +1,6 @@
+{
+  "name": "Civic Sense",
+  "description": "Vernacular-first civic reporting, social media complaint listening, and AI triage platform.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
